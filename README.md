@@ -10,4 +10,5 @@ run `main.py` with uvicorn and go!!! (example cmdline: `DISCORD_TOKEN="replaceme
 
 ## Example
 
-
+<https://github.com/samicrusader/DiscordLinker/raw/master/.github/vid.mp4>
+<video src="https://github.com/samicrusader/DiscordLinker/raw/master/.github/vid.mp4"></video>
