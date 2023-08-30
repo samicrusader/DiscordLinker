@@ -1,0 +1,12 @@
+[Unit]
+Description=github.com/samicrusader/DiscordLinker
+After=nginx.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/uvicorn main:app --host 127.0.0.1 --port 8000
+WorkingDirectory=/srv/www/DiscordLinker
+Environment=DISCORD_TOKEN=example
+
+[Install]
+WantedBy=multi-user.target
